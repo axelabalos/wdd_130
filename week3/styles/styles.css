@@ -34,25 +34,33 @@ Fonts are separated by a & */
   color: steelblue;
 }
 
+
 .main-para {
   font-size: 1.5em;
   line-height: 1.5em;
+}
+main p {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
 }
 body {
   max-width: 960px;
   margin: 0 auto;
   padding: 4em;
   font-size: 18px;
-  text-align: center;
+  /*text-align: center*/;
 }
 img {
   display: block;
   margin: 0 auto;
-  max-width: 300px;
+  width: 80%;
+  /*max-width: 300px;*/
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
+  text-align: center;
 }
 h2 {
   text-align: center;
@@ -109,12 +117,17 @@ nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
+
 }
 nav  {
   list-style-type: none;
   display: flex;
 }
+nav, footer {
+  text-align: center;
+}
+
 nav a {
   padding:1em;
   min-width: 120px;
