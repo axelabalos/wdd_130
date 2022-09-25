@@ -21,7 +21,7 @@ Fonts are separated by a & */
   --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #0A2463; /* paragraph text on a colored background */ 
   --paragraph-background-color: #FCF5C7  ;
-  --nav-link-color: #396E94;
+  --nav-link-color: #87cbfc;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
@@ -114,19 +114,28 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 nav {
-  background-color: var(--nav-background-color);
+  /*background-color: var(--nav-background-color)*/;
   line-height: 3em;
   text-align: center;
   font-size: 1.5em;
 
 }
+nav, footer {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+}
 nav  {
   list-style-type: none;
   display: flex;
 }
-nav, footer {
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
   text-align: center;
 }
+
+
 
 nav a {
   padding:1em;
@@ -137,9 +146,13 @@ nav a {
 nav a:link, nav a:visited {
   color: var(--nav-link-color);
 }
-nav a:hover {
+/*nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}*/
+a:hover {
+  background-color: rgb(27, 10, 10);
+  color: rgb(125, 155, 180);
 }
 .sitemap {
   display: grid;
