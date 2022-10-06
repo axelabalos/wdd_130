@@ -75,7 +75,7 @@ body{
     padding: 0;
 }
 
-header{
+header {
     /*background-color:#0A2463*/ ;
     display: grid;
     grid-template-columns: 150px auto;
