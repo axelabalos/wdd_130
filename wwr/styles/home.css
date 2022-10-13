@@ -3,8 +3,12 @@
 :root{
     --heading-font: "Crimson Text", Arial, sans-serif;
     --paragraph-font: Quicksand, Helvetica, sans-serif;
- }
+}
 
+
+
+
+/*----BELOW ARE THE STYLES FOR INDEX.HTML PAGE --- */
 
 
 #content{
@@ -234,6 +238,71 @@ footer .social img {
     box-shadow: 5px 5px 10px #396E94;
 }
 
+
+/*----BELOW ARE THE STYLES FOR RIVERS.HTML PAGE --- */
+
+.pagetitle{
+    color: white;
+}
+.pagesubtitle{
+    color: white;
+}
+.boxes{
+    margin: 50px;
+    padding: 50px;
+    border:10px solid #FFEE93;
+    color: white;
+
+}
+main{
+    text-align: center;
+}
+.river{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin-top: -100px;
+}
+
+#hover-over{
+    font-size: 60%;
+    margin-bottom: -50px;
+
+}
+
+.mini-center, .mini-left, .mini-right{
+    width: 100% ;
+    grid-row: 2/3;
+}
+
+.mini-center:hover, .mini-left:hover, .mini-right:hover{
+    transform: scale(2.5);
+    transition: transform 1s;
+    
+}
+
+.mini-left{
+    grid-column: 2/4;
+   
+}
+
+
+.mini-center{
+    grid-column: 5/7;
+  
+    
+}
+
+.mini-right{
+    grid-column: 8/10;
+    
+  
+}
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -275,3 +344,4 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
