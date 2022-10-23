@@ -367,6 +367,7 @@ list-style: none;
     between the labels and their text fields */
 margin-left: 0.5em;
 }
+
 #feedback {
     background-color: antiquewhite;
     position: absolute;
