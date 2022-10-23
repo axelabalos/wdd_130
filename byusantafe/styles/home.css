@@ -457,30 +457,7 @@ text-align: center;
     margin-left: 20% ;
    
 }
-#feedback1 {
-    background-color: #EBA51B;
-    position: absolute;
-    top: -100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    /* make this element invisible until we are ready for it */
-    display: none;     
-    margin-left: 20% ;
-   
-}
-#feedback2 {
-    background-color: #EBA51B;
-    position: absolute;
-    bottom: -180%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    /* make this element invisible until we are ready for it */
-    display: none;     
-    margin-left: 20% ;
-   
-}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
